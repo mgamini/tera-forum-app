@@ -16,7 +16,7 @@
 		{
 			"patterns": ["http://tera-forums.enmasse.com/*", "https://tera-forums.enmasse.com/*"],
 			"styles": ["css/default.css"],
-			"scripts": ["js/jquery-1.7.1.min.js", "js/every-page.js"],
+			"scripts": ["js/every-page.js"],
 			"run_at": "start",
 			"all_frames": true
 		}
