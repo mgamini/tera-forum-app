@@ -4,7 +4,7 @@
 	"name": "TERA Forum Viewer",
 	"author": "kadjar@gmail.com",
 	"version": "0.1",
-	"description": "My Extension Description",
+	"description": "This app replaces the TERA forums CSS with custom CSS",
 	"permissions": ["tabs"],
 	"background_files": ["js/background.js"],
 	"browser_action": {
@@ -14,11 +14,11 @@
 	},
 	"activations": [
 		{
-			"patterns": ["http://*/*", "https://*/*"],
-			"styles": [],
-			"scripts": ["js/every-page.js"],
+			"patterns": ["http://tera-forums.enmasse.com/*", "https://tera-forums.enmasse.com/*"],
+			"styles": ["css/default.css"],
+			"scripts": ["js/jquery-1.7.1.min.js", "js/every-page.js"],
 			"run_at": "start",
-			"all_frames": false
+			"all_frames": true
 		}
 	],
 	"logging": {
