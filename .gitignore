@@ -1,2 +1,3 @@
 development/*
-.template/*
+.template*/*
+.DS_Store
