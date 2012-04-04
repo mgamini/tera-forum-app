@@ -1,0 +1,76 @@
+@import "compass/reset";
+@import "compass/css3";
+//colors 
+$link-color: #0279ff;
+$bodytext-color: #a8a8a8;
+$border-color: #444;
+$headertext-color: #fff;
+$background-color: #000;
+
+//hidden elements on the page
+.head, .user-details, .header, #top-pagination, table.full thead, .large-num, .last-post, p.replies-icon {
+  display: none;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+body {
+  background: url('../img/bg-fade.png') top center repeat-x $background-color;
+  color: $bodytext-color;
+  font-family: Droid Sans, Helvetica Neue, Segoe UI, sans-serif;
+}
+
+.breadcrumbs {
+  background: url('../img/headernav-back.png') top center repeat-x;
+  height: 40px;
+  line-height: 40px;
+  a {
+    color: $headertext-color;  
+  }
+  @include box-shadow($background-color 0px 0px 3px);
+
+  #homelink {
+    background: url('../img/homelink.png') center center no-repeat transparent;
+    height: 30px;
+    width: 30px;
+    display: block;
+    margin: 5px;
+    float: left;
+  }
+}
+.content {
+}
+table.full {
+  width: 100%;
+
+  tr {
+    padding: 15px;
+    display: block;
+    background: url('../img/bevel.png') bottom center repeat-x;
+    position: relative;
+  }
+  td {
+  
+    &.thread {
+
+      a.title {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      
+      p {
+        padding: 5px 0px;
+        font-size: 14px;
+      }
+    }
+    &.num {
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+
+    }
+  }
+}

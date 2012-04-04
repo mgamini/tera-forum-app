@@ -1,0 +1,1229 @@
+2012-03-20 16:33:36,099 [   INFO] Forge tools running at version 2.6.1
+2012-03-20 16:33:36,131 [  DEBUG] Forge build tools version: 2.6.1
+2012-03-20 16:33:36,131 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2012-03-20 16:33:36,131 [  DEBUG] uuid: "c753e4b05f4e11e1bb8e12313d1adcbe"
+2012-03-20 16:33:36,139 [   INFO] configuration has changed: creating new templates
+2012-03-20 16:33:36,140 [  DEBUG] GET https://trigger.io/api/version_check/2/6/1/
+2012-03-20 16:33:37,208 [  DEBUG] checking API response for success or error
+2012-03-20 16:33:37,208 [   INFO] Update result: you must upgrade to a newer version of the command-line tools
+2012-03-20 16:33:37,208 [  ERROR] An update to these command line tools is required
+
+The newest tools can be obtained from https://trigger.io/forge/upgrade/
+
+2012-03-20 16:34:27,838 [   INFO] Forge tools running at version 3.1.1
+2012-03-20 16:34:27,839 [  DEBUG] Forge build tools version: 3.1.1
+2012-03-20 16:34:27,839 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2012-03-20 16:34:27,840 [  DEBUG] .template/config.json does not exist: we need to fetch new templates
+2012-03-20 16:34:27,852 [  DEBUG] ignoring non-target directory 005a33b88c4bd38ca80e7ca0f88595fc.hash
+2012-03-20 16:34:27,852 [  DEBUG] GET https://trigger.io/api/app/c753e4b05f4e11e1bb8e12313d1adcbe/should_rebuild
+2012-03-20 16:34:29,051 [  DEBUG] checking API response for success or error
+2012-03-20 16:34:29,052 [  ERROR] Server meant to respond with JSON, but response content was: 
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<link rel="shortcut icon" href="/forge-static/favicon.ico"/>
+<meta charset="utf-8">
+<title>Sign up or Login - Forge</title>
+<meta name="description" content="Forge wraps HTML5 code to give you a native app with native power">
+<meta name="keywords" content="#">
+<meta name="author" content="Trigger Corp">
+<meta name="robots" content="follow, index">
+<!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+
+<link href='https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/forge-static/css/trigger-style.css?v=1.0">
+
+<link rel="stylesheet" href="/forge-static/css/forge-style.css?v=1.0">
+
+
+<script src="/forge-static/js/libs/modernizr-2.0.6.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/forge-static/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	<script src="/forge-static/js/libs/jquery.tools-1.2.5.min.js"></script>
+	<script src="/forge-static/js/mylibs/jquery.colorbox-min.js"></script>
+	<script src="/forge-static/js/mylibs/jquery.selectbox.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#plan').selectbox();
+		});
+	</script>
+
+	<script defer src="/forge-static/js/plugins.js"></script>
+	<script defer src="/forge-static/js/script.js"></script>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-3457960-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+	
+
+
+</head>
+<body class="forge authentication">
+
+
+<div id="notifications" style="display:none">
+	
+</div>
+
+<div id="container">
+
+	<header>
+			
+			<hgroup class="clearfix">
+				<a href="/forge/" class=""><h1 class="ir" title="Forge">Forge</h1></a>
+			</hgroup>
+			
+			<nav class="clearfix">
+			
+				<ul>
+					<li><a href="/"><span>&#171;</span> Trigger homepage</a></li>
+					<li><a target="_blank" href="http://docs.trigger.io/">Documentation</a></li>
+					<li><a href="/forge/" class="">Your Apps</a></li>
+					
+				</ul>
+				
+			</nav>
+			
+    </header>
+
+
+	<div id="main" role="main">
+	<div class="forge-strip warning">
+	</div>
+	
+
+<div class="wrapper clearfix">
+	<section>
+		<h1 class="main stripe highlight">Create account / Log in</h1>
+		<div id="account-create" class="form">
+			<h2>Create account</h2>
+			
+			<form action="" method="POST">
+				<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='d593b0e42ecce33c443c3c9d9581f300' /></div>
+				<p>
+					<label for="id_name">Name:
+						<input id="id_name" required="required" type="text" name="name" maxlength="75"
+							>
+					</label>
+				</p>
+				
+				<p>
+					<label for="id_create_email">E-mail:
+						<input id="id_create_email" required="required" type="text" name="email" maxlength="75"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password1">Password:
+						<input required="required" type="password" name="password1" id="id_password1"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password2">Password (again):
+						<input required="required" type="password" name="password2" id="id_password2"
+							>
+					</label>
+				</p>
+				
+				
+				
+				
+				
+				
+				<button type="submit" name="signup" class="rounded" tabindex="70">Create Account</button>
+			</form>
+		</div>
+	
+		<div id="account-login" class="form">
+			<h2>Log in</h2>
+			<form action="" method="POST">
+				<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='d593b0e42ecce33c443c3c9d9581f300' /></div>
+				<p>
+					<label for="id_login_email">Email:
+						<input id="id_login_email" type="text" name="email" maxlength="64" required="required"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password">Password:
+						<a class="forgot" href="/accounts/password/reset/" tabindex="100">forgotten password?</a>
+						<input type="password" name="password" id="id_password" required="required"
+							>
+					</label>
+				</p>
+				<button type="submit" name="login" class="rounded" tabindex="100">Log in to Account</button>
+			</form>
+		</div>
+	</section>
+
+	<aside>
+		<h2 class="first orange"><span class="icon help"></span>Need Help?</h2>
+		
+		<div class="box">
+			<p>Have a question?<br />
+				<a href="mailto:support@trigger.io">Contact us</a>
+			</p>
+		</div>
+		
+		<div class="divider"></div>
+	</aside>
+</div>
+
+	
+
+		<div class="socialbttns clearfix"> 
+			<p class="title">Follow &amp; Share:</p>
+		
+			<ul>
+				<li class="trigger"><a href="#" class="facebook">Facebook</a>
+					<ul class="book fb">
+				
+						<li>
+							<div class="likebttn">
+								
+							</div>
+						</li>
+					
+						
+					
+					</ul>
+				</li>
+			
+				<li class="trigger"><a href="#" class="twitter">Twitter</a>
+					<ul class="book twit">
+				
+						<li>
+							<div class="tweetbttn">
+							<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="trigger">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+							</div>
+						</li>
+					
+						
+					
+					</ul>
+				</li>
+			
+				<li class="trigger"><a href="#" class="google">Google+1</a>
+					<ul class="book goo">
+				
+						<li class="bottom">
+						<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+						{lang: 'en-GB'}
+						</script><div class="plusbttn"><g:plusone size="medium" count="false"></g:plusone></div>
+						</li>
+					
+					</ul>
+				</li>
+			</ul>
+		
+		</div>
+
+	
+
+		<footer>
+				<div class="clearfix">
+				<small class="copyright">Copyright &copy; Trigger Corp. 2012</small>
+				<small class="squidge">Website design by <a href="http://squidgeinc.com" target="_blank">Squidge Inc</a></small>
+			</div>
+		</footer>
+		
+
+		
+
+	</div> 
+</div> 
+</body>
+</html>
+
+2012-03-20 16:35:13,218 [   INFO] Forge tools running at version 3.1.1
+2012-03-20 16:35:13,219 [  DEBUG] Forge build tools version: 3.1.1
+2012-03-20 16:35:13,219 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2012-03-20 16:35:13,220 [  DEBUG] .template/config.json does not exist: we need to fetch new templates
+2012-03-20 16:35:13,220 [  DEBUG] ignoring non-target directory 005a33b88c4bd38ca80e7ca0f88595fc.hash
+2012-03-20 16:35:13,220 [  DEBUG] GET https://trigger.io/api/app/c753e4b05f4e11e1bb8e12313d1adcbe/should_rebuild
+2012-03-20 16:35:14,215 [  DEBUG] checking API response for success or error
+2012-03-20 16:35:14,215 [  ERROR] Server meant to respond with JSON, but response content was: 
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<link rel="shortcut icon" href="/forge-static/favicon.ico"/>
+<meta charset="utf-8">
+<title>Sign up or Login - Forge</title>
+<meta name="description" content="Forge wraps HTML5 code to give you a native app with native power">
+<meta name="keywords" content="#">
+<meta name="author" content="Trigger Corp">
+<meta name="robots" content="follow, index">
+<!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+
+<link href='https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/forge-static/css/trigger-style.css?v=1.0">
+
+<link rel="stylesheet" href="/forge-static/css/forge-style.css?v=1.0">
+
+
+<script src="/forge-static/js/libs/modernizr-2.0.6.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/forge-static/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	<script src="/forge-static/js/libs/jquery.tools-1.2.5.min.js"></script>
+	<script src="/forge-static/js/mylibs/jquery.colorbox-min.js"></script>
+	<script src="/forge-static/js/mylibs/jquery.selectbox.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#plan').selectbox();
+		});
+	</script>
+
+	<script defer src="/forge-static/js/plugins.js"></script>
+	<script defer src="/forge-static/js/script.js"></script>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-3457960-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+	
+
+
+</head>
+<body class="forge authentication">
+
+
+<div id="notifications" style="display:none">
+	
+</div>
+
+<div id="container">
+
+	<header>
+			
+			<hgroup class="clearfix">
+				<a href="/forge/" class=""><h1 class="ir" title="Forge">Forge</h1></a>
+			</hgroup>
+			
+			<nav class="clearfix">
+			
+				<ul>
+					<li><a href="/"><span>&#171;</span> Trigger homepage</a></li>
+					<li><a target="_blank" href="http://docs.trigger.io/">Documentation</a></li>
+					<li><a href="/forge/" class="">Your Apps</a></li>
+					
+				</ul>
+				
+			</nav>
+			
+    </header>
+
+
+	<div id="main" role="main">
+	<div class="forge-strip warning">
+	</div>
+	
+
+<div class="wrapper clearfix">
+	<section>
+		<h1 class="main stripe highlight">Create account / Log in</h1>
+		<div id="account-create" class="form">
+			<h2>Create account</h2>
+			
+			<form action="" method="POST">
+				<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='d593b0e42ecce33c443c3c9d9581f300' /></div>
+				<p>
+					<label for="id_name">Name:
+						<input id="id_name" required="required" type="text" name="name" maxlength="75"
+							>
+					</label>
+				</p>
+				
+				<p>
+					<label for="id_create_email">E-mail:
+						<input id="id_create_email" required="required" type="text" name="email" maxlength="75"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password1">Password:
+						<input required="required" type="password" name="password1" id="id_password1"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password2">Password (again):
+						<input required="required" type="password" name="password2" id="id_password2"
+							>
+					</label>
+				</p>
+				
+				
+				
+				
+				
+				
+				<button type="submit" name="signup" class="rounded" tabindex="70">Create Account</button>
+			</form>
+		</div>
+	
+		<div id="account-login" class="form">
+			<h2>Log in</h2>
+			<form action="" method="POST">
+				<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='d593b0e42ecce33c443c3c9d9581f300' /></div>
+				<p>
+					<label for="id_login_email">Email:
+						<input id="id_login_email" type="text" name="email" maxlength="64" required="required"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password">Password:
+						<a class="forgot" href="/accounts/password/reset/" tabindex="100">forgotten password?</a>
+						<input type="password" name="password" id="id_password" required="required"
+							>
+					</label>
+				</p>
+				<button type="submit" name="login" class="rounded" tabindex="100">Log in to Account</button>
+			</form>
+		</div>
+	</section>
+
+	<aside>
+		<h2 class="first orange"><span class="icon help"></span>Need Help?</h2>
+		
+		<div class="box">
+			<p>Have a question?<br />
+				<a href="mailto:support@trigger.io">Contact us</a>
+			</p>
+		</div>
+		
+		<div class="divider"></div>
+	</aside>
+</div>
+
+	
+
+		<div class="socialbttns clearfix"> 
+			<p class="title">Follow &amp; Share:</p>
+		
+			<ul>
+				<li class="trigger"><a href="#" class="facebook">Facebook</a>
+					<ul class="book fb">
+				
+						<li>
+							<div class="likebttn">
+								
+							</div>
+						</li>
+					
+						
+					
+					</ul>
+				</li>
+			
+				<li class="trigger"><a href="#" class="twitter">Twitter</a>
+					<ul class="book twit">
+				
+						<li>
+							<div class="tweetbttn">
+							<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="trigger">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+							</div>
+						</li>
+					
+						
+					
+					</ul>
+				</li>
+			
+				<li class="trigger"><a href="#" class="google">Google+1</a>
+					<ul class="book goo">
+				
+						<li class="bottom">
+						<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+						{lang: 'en-GB'}
+						</script><div class="plusbttn"><g:plusone size="medium" count="false"></g:plusone></div>
+						</li>
+					
+					</ul>
+				</li>
+			</ul>
+		
+		</div>
+
+	
+
+		<footer>
+				<div class="clearfix">
+				<small class="copyright">Copyright &copy; Trigger Corp. 2012</small>
+				<small class="squidge">Website design by <a href="http://squidgeinc.com" target="_blank">Squidge Inc</a></small>
+			</div>
+		</footer>
+		
+
+		
+
+	</div> 
+</div> 
+</body>
+</html>
+
+2012-03-20 16:36:19,380 [   INFO] Forge tools running at version 3.1.1
+2012-03-20 16:36:19,381 [  DEBUG] Forge build tools version: 3.1.1
+2012-03-20 16:36:19,381 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2012-03-20 16:36:19,382 [  DEBUG] .template/config.json does not exist: we need to fetch new templates
+2012-03-20 16:36:19,382 [  DEBUG] ignoring non-target directory 005a33b88c4bd38ca80e7ca0f88595fc.hash
+2012-03-20 16:36:19,382 [  DEBUG] GET https://trigger.io/api/app/c753e4b05f4e11e1bb8e12313d1adcbe/should_rebuild
+2012-03-20 16:36:20,449 [  DEBUG] checking API response for success or error
+2012-03-20 16:36:20,449 [  ERROR] Server meant to respond with JSON, but response content was: 
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<link rel="shortcut icon" href="/forge-static/favicon.ico"/>
+<meta charset="utf-8">
+<title>Sign up or Login - Forge</title>
+<meta name="description" content="Forge wraps HTML5 code to give you a native app with native power">
+<meta name="keywords" content="#">
+<meta name="author" content="Trigger Corp">
+<meta name="robots" content="follow, index">
+<!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+
+<link href='https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/forge-static/css/trigger-style.css?v=1.0">
+
+<link rel="stylesheet" href="/forge-static/css/forge-style.css?v=1.0">
+
+
+<script src="/forge-static/js/libs/modernizr-2.0.6.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/forge-static/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	<script src="/forge-static/js/libs/jquery.tools-1.2.5.min.js"></script>
+	<script src="/forge-static/js/mylibs/jquery.colorbox-min.js"></script>
+	<script src="/forge-static/js/mylibs/jquery.selectbox.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#plan').selectbox();
+		});
+	</script>
+
+	<script defer src="/forge-static/js/plugins.js"></script>
+	<script defer src="/forge-static/js/script.js"></script>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-3457960-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+	
+
+
+</head>
+<body class="forge authentication">
+
+
+<div id="notifications" style="display:none">
+	
+</div>
+
+<div id="container">
+
+	<header>
+			
+			<hgroup class="clearfix">
+				<a href="/forge/" class=""><h1 class="ir" title="Forge">Forge</h1></a>
+			</hgroup>
+			
+			<nav class="clearfix">
+			
+				<ul>
+					<li><a href="/"><span>&#171;</span> Trigger homepage</a></li>
+					<li><a target="_blank" href="http://docs.trigger.io/">Documentation</a></li>
+					<li><a href="/forge/" class="">Your Apps</a></li>
+					
+				</ul>
+				
+			</nav>
+			
+    </header>
+
+
+	<div id="main" role="main">
+	<div class="forge-strip warning">
+	</div>
+	
+
+<div class="wrapper clearfix">
+	<section>
+		<h1 class="main stripe highlight">Create account / Log in</h1>
+		<div id="account-create" class="form">
+			<h2>Create account</h2>
+			
+			<form action="" method="POST">
+				<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='6c36d6f6ed489a4cd82cda1a959e4974' /></div>
+				<p>
+					<label for="id_name">Name:
+						<input id="id_name" required="required" type="text" name="name" maxlength="75"
+							>
+					</label>
+				</p>
+				
+				<p>
+					<label for="id_create_email">E-mail:
+						<input id="id_create_email" required="required" type="text" name="email" maxlength="75"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password1">Password:
+						<input required="required" type="password" name="password1" id="id_password1"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password2">Password (again):
+						<input required="required" type="password" name="password2" id="id_password2"
+							>
+					</label>
+				</p>
+				
+				
+				
+				
+				
+				
+				<button type="submit" name="signup" class="rounded" tabindex="70">Create Account</button>
+			</form>
+		</div>
+	
+		<div id="account-login" class="form">
+			<h2>Log in</h2>
+			<form action="" method="POST">
+				<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='6c36d6f6ed489a4cd82cda1a959e4974' /></div>
+				<p>
+					<label for="id_login_email">Email:
+						<input id="id_login_email" type="text" name="email" maxlength="64" required="required"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password">Password:
+						<a class="forgot" href="/accounts/password/reset/" tabindex="100">forgotten password?</a>
+						<input type="password" name="password" id="id_password" required="required"
+							>
+					</label>
+				</p>
+				<button type="submit" name="login" class="rounded" tabindex="100">Log in to Account</button>
+			</form>
+		</div>
+	</section>
+
+	<aside>
+		<h2 class="first orange"><span class="icon help"></span>Need Help?</h2>
+		
+		<div class="box">
+			<p>Have a question?<br />
+				<a href="mailto:support@trigger.io">Contact us</a>
+			</p>
+		</div>
+		
+		<div class="divider"></div>
+	</aside>
+</div>
+
+	
+
+		<div class="socialbttns clearfix"> 
+			<p class="title">Follow &amp; Share:</p>
+		
+			<ul>
+				<li class="trigger"><a href="#" class="facebook">Facebook</a>
+					<ul class="book fb">
+				
+						<li>
+							<div class="likebttn">
+								
+							</div>
+						</li>
+					
+						
+					
+					</ul>
+				</li>
+			
+				<li class="trigger"><a href="#" class="twitter">Twitter</a>
+					<ul class="book twit">
+				
+						<li>
+							<div class="tweetbttn">
+							<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="trigger">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+							</div>
+						</li>
+					
+						
+					
+					</ul>
+				</li>
+			
+				<li class="trigger"><a href="#" class="google">Google+1</a>
+					<ul class="book goo">
+				
+						<li class="bottom">
+						<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+						{lang: 'en-GB'}
+						</script><div class="plusbttn"><g:plusone size="medium" count="false"></g:plusone></div>
+						</li>
+					
+					</ul>
+				</li>
+			</ul>
+		
+		</div>
+
+	
+
+		<footer>
+				<div class="clearfix">
+				<small class="copyright">Copyright &copy; Trigger Corp. 2012</small>
+				<small class="squidge">Website design by <a href="http://squidgeinc.com" target="_blank">Squidge Inc</a></small>
+			</div>
+		</footer>
+		
+
+		
+
+	</div> 
+</div> 
+</body>
+</html>
+
+2012-03-21 10:11:17,844 [   INFO] Forge tools running at version 3.1.1
+2012-03-21 10:11:17,858 [  DEBUG] Forge build tools version: 3.1.1
+2012-03-21 10:11:17,858 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2012-03-21 10:11:17,859 [  DEBUG] .template/config.json does not exist: we need to fetch new templates
+2012-03-21 10:11:17,900 [  DEBUG] ignoring non-target directory 005a33b88c4bd38ca80e7ca0f88595fc.hash
+2012-03-21 10:11:17,901 [  DEBUG] GET https://trigger.io/api/app/c753e4b05f4e11e1bb8e12313d1adcbe/should_rebuild
+2012-03-21 10:11:19,251 [  DEBUG] checking API response for success or error
+2012-03-21 10:11:19,252 [  ERROR] Server meant to respond with JSON, but response content was: 
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<link rel="shortcut icon" href="/forge-static/favicon.ico"/>
+<meta charset="utf-8">
+<title>Sign up or Login - Forge</title>
+<meta name="description" content="Forge wraps HTML5 code to give you a native app with native power">
+<meta name="keywords" content="#">
+<meta name="author" content="Trigger Corp">
+<meta name="robots" content="follow, index">
+<!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+
+<link href='https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/forge-static/css/trigger-style.css?v=1.0">
+
+<link rel="stylesheet" href="/forge-static/css/forge-style.css?v=1.0">
+
+
+<script src="/forge-static/js/libs/modernizr-2.0.6.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/forge-static/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	<script src="/forge-static/js/libs/jquery.tools-1.2.5.min.js"></script>
+	<script src="/forge-static/js/mylibs/jquery.colorbox-min.js"></script>
+	<script src="/forge-static/js/mylibs/jquery.selectbox.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#plan').selectbox();
+		});
+	</script>
+
+	<script defer src="/forge-static/js/plugins.js"></script>
+	<script defer src="/forge-static/js/script.js"></script>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-3457960-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+	
+
+
+</head>
+<body class="forge authentication">
+
+
+<div id="notifications" style="display:none">
+	
+</div>
+
+<div id="container">
+
+	<header>
+			
+			<hgroup class="clearfix">
+				<a href="/forge/" class=""><h1 class="ir" title="Forge">Forge</h1></a>
+			</hgroup>
+			
+			<nav class="clearfix">
+			
+				<ul>
+					<li><a href="/"><span>&#171;</span> Trigger homepage</a></li>
+					<li><a target="_blank" href="http://docs.trigger.io/">Documentation</a></li>
+					<li><a href="/forge/" class="">Your Apps</a></li>
+					
+				</ul>
+				
+			</nav>
+			
+    </header>
+
+
+	<div id="main" role="main">
+	<div class="forge-strip warning">
+	</div>
+	
+
+<div class="wrapper clearfix">
+	<section>
+		<h1 class="main stripe highlight">Create account / Log in</h1>
+		<div id="account-create" class="form">
+			<h2>Create account</h2>
+			
+			<form action="" method="POST">
+				<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='6c36d6f6ed489a4cd82cda1a959e4974' /></div>
+				<p>
+					<label for="id_name">Name:
+						<input id="id_name" required="required" type="text" name="name" maxlength="75"
+							>
+					</label>
+				</p>
+				
+				<p>
+					<label for="id_create_email">E-mail:
+						<input id="id_create_email" required="required" type="text" name="email" maxlength="75"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password1">Password:
+						<input required="required" type="password" name="password1" id="id_password1"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password2">Password (again):
+						<input required="required" type="password" name="password2" id="id_password2"
+							>
+					</label>
+				</p>
+				
+				
+				
+				
+				
+				
+				<button type="submit" name="signup" class="rounded" tabindex="70">Create Account</button>
+			</form>
+		</div>
+	
+		<div id="account-login" class="form">
+			<h2>Log in</h2>
+			<form action="" method="POST">
+				<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='6c36d6f6ed489a4cd82cda1a959e4974' /></div>
+				<p>
+					<label for="id_login_email">Email:
+						<input id="id_login_email" type="text" name="email" maxlength="64" required="required"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password">Password:
+						<a class="forgot" href="/accounts/password/reset/" tabindex="100">forgotten password?</a>
+						<input type="password" name="password" id="id_password" required="required"
+							>
+					</label>
+				</p>
+				<button type="submit" name="login" class="rounded" tabindex="100">Log in to Account</button>
+			</form>
+		</div>
+	</section>
+
+	<aside>
+		<h2 class="first orange"><span class="icon help"></span>Need Help?</h2>
+		
+		<div class="box">
+			<p>Have a question?<br />
+				<a href="mailto:support@trigger.io">Contact us</a>
+			</p>
+		</div>
+		
+		<div class="divider"></div>
+	</aside>
+</div>
+
+	
+
+		<div class="socialbttns clearfix"> 
+			<p class="title">Follow &amp; Share:</p>
+		
+			<ul>
+				<li class="trigger"><a href="#" class="facebook">Facebook</a>
+					<ul class="book fb">
+				
+						<li>
+							<div class="likebttn">
+								
+							</div>
+						</li>
+					
+						
+					
+					</ul>
+				</li>
+			
+				<li class="trigger"><a href="#" class="twitter">Twitter</a>
+					<ul class="book twit">
+				
+						<li>
+							<div class="tweetbttn">
+							<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="trigger">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+							</div>
+						</li>
+					
+						
+					
+					</ul>
+				</li>
+			
+				<li class="trigger"><a href="#" class="google">Google+1</a>
+					<ul class="book goo">
+				
+						<li class="bottom">
+						<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+						{lang: 'en-GB'}
+						</script><div class="plusbttn"><g:plusone size="medium" count="false"></g:plusone></div>
+						</li>
+					
+					</ul>
+				</li>
+			</ul>
+		
+		</div>
+
+	
+
+		<footer>
+				<div class="clearfix">
+				<small class="copyright">Copyright &copy; Trigger Corp. 2012</small>
+				<small class="squidge">Website design by <a href="http://squidgeinc.com" target="_blank">Squidge Inc</a></small>
+			</div>
+		</footer>
+		
+
+		
+
+	</div> 
+</div> 
+</body>
+</html>
+
+2012-03-21 12:04:11,626 [   INFO] Forge tools running at version 3.1.1
+2012-03-21 12:04:11,640 [  DEBUG] Forge build tools version: 3.1.1
+2012-03-21 12:04:11,640 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2012-03-21 12:04:11,648 [  DEBUG] full rebuild requested: removing previous templates
+2012-03-21 12:04:11,752 [  DEBUG] .template is not a directory: don't have templates
+2012-03-21 12:04:11,795 [  DEBUG] ignoring non-target directory 005a33b88c4bd38ca80e7ca0f88595fc.hash
+2012-03-21 12:04:11,795 [  DEBUG] GET https://trigger.io/api/app/c753e4b05f4e11e1bb8e12313d1adcbe/should_rebuild
+2012-03-21 12:04:12,888 [  DEBUG] checking API response for success or error
+2012-03-21 12:04:12,888 [  ERROR] Server meant to respond with JSON, but response content was: 
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<link rel="shortcut icon" href="/forge-static/favicon.ico"/>
+<meta charset="utf-8">
+<title>Sign up or Login - Forge</title>
+<meta name="description" content="Forge wraps HTML5 code to give you a native app with native power">
+<meta name="keywords" content="#">
+<meta name="author" content="Trigger Corp">
+<meta name="robots" content="follow, index">
+<!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+
+<link href='https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/forge-static/css/trigger-style.css?v=1.0">
+
+<link rel="stylesheet" href="/forge-static/css/forge-style.css?v=1.0">
+
+
+<script src="/forge-static/js/libs/modernizr-2.0.6.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/forge-static/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	<script src="/forge-static/js/libs/jquery.tools-1.2.5.min.js"></script>
+	<script src="/forge-static/js/mylibs/jquery.colorbox-min.js"></script>
+	<script src="/forge-static/js/mylibs/jquery.selectbox.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#plan').selectbox();
+		});
+	</script>
+
+	<script defer src="/forge-static/js/plugins.js"></script>
+	<script defer src="/forge-static/js/script.js"></script>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-3457960-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+	
+
+
+</head>
+<body class="forge authentication">
+
+
+<div id="notifications" style="display:none">
+	
+</div>
+
+<div id="container">
+
+	<header>
+			
+			<hgroup class="clearfix">
+				<a href="/forge/" class=""><h1 class="ir" title="Forge">Forge</h1></a>
+			</hgroup>
+			
+			<nav class="clearfix">
+			
+				<ul>
+					<li><a href="/"><span>&#171;</span> Trigger homepage</a></li>
+					<li><a target="_blank" href="http://docs.trigger.io/">Documentation</a></li>
+					<li><a href="/forge/" class="">Your Apps</a></li>
+					
+				</ul>
+				
+			</nav>
+			
+    </header>
+
+
+	<div id="main" role="main">
+	<div class="forge-strip warning">
+	</div>
+	
+
+<div class="wrapper clearfix">
+	<section>
+		<h1 class="main stripe highlight">Create account / Log in</h1>
+		<div id="account-create" class="form">
+			<h2>Create account</h2>
+			
+			<form action="" method="POST">
+				<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='6c36d6f6ed489a4cd82cda1a959e4974' /></div>
+				<p>
+					<label for="id_name">Name:
+						<input id="id_name" required="required" type="text" name="name" maxlength="75"
+							>
+					</label>
+				</p>
+				
+				<p>
+					<label for="id_create_email">E-mail:
+						<input id="id_create_email" required="required" type="text" name="email" maxlength="75"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password1">Password:
+						<input required="required" type="password" name="password1" id="id_password1"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password2">Password (again):
+						<input required="required" type="password" name="password2" id="id_password2"
+							>
+					</label>
+				</p>
+				
+				
+				
+				
+				
+				
+				<button type="submit" name="signup" class="rounded" tabindex="70">Create Account</button>
+			</form>
+		</div>
+	
+		<div id="account-login" class="form">
+			<h2>Log in</h2>
+			<form action="" method="POST">
+				<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='6c36d6f6ed489a4cd82cda1a959e4974' /></div>
+				<p>
+					<label for="id_login_email">Email:
+						<input id="id_login_email" type="text" name="email" maxlength="64" required="required"
+							>
+					</label>
+				</p>
+				<p>
+					<label for="id_password">Password:
+						<a class="forgot" href="/accounts/password/reset/" tabindex="100">forgotten password?</a>
+						<input type="password" name="password" id="id_password" required="required"
+							>
+					</label>
+				</p>
+				<button type="submit" name="login" class="rounded" tabindex="100">Log in to Account</button>
+			</form>
+		</div>
+	</section>
+
+	<aside>
+		<h2 class="first orange"><span class="icon help"></span>Need Help?</h2>
+		
+		<div class="box">
+			<p>Have a question?<br />
+				<a href="mailto:support@trigger.io">Contact us</a>
+			</p>
+		</div>
+		
+		<div class="divider"></div>
+	</aside>
+</div>
+
+	
+
+		<div class="socialbttns clearfix"> 
+			<p class="title">Follow &amp; Share:</p>
+		
+			<ul>
+				<li class="trigger"><a href="#" class="facebook">Facebook</a>
+					<ul class="book fb">
+				
+						<li>
+							<div class="likebttn">
+								
+							</div>
+						</li>
+					
+						
+					
+					</ul>
+				</li>
+			
+				<li class="trigger"><a href="#" class="twitter">Twitter</a>
+					<ul class="book twit">
+				
+						<li>
+							<div class="tweetbttn">
+							<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="trigger">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+							</div>
+						</li>
+					
+						
+					
+					</ul>
+				</li>
+			
+				<li class="trigger"><a href="#" class="google">Google+1</a>
+					<ul class="book goo">
+				
+						<li class="bottom">
+						<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+						{lang: 'en-GB'}
+						</script><div class="plusbttn"><g:plusone size="medium" count="false"></g:plusone></div>
+						</li>
+					
+					</ul>
+				</li>
+			</ul>
+		
+		</div>
+
+	
+
+		<footer>
+				<div class="clearfix">
+				<small class="copyright">Copyright &copy; Trigger Corp. 2012</small>
+				<small class="squidge">Website design by <a href="http://squidgeinc.com" target="_blank">Squidge Inc</a></small>
+			</div>
+		</footer>
+		
+
+		
+
+	</div> 
+</div> 
+</body>
+</html>
+
+2012-03-21 15:55:29,914 [   INFO] Forge tools running at version 3.1.5
+2012-03-21 15:55:29,915 [  DEBUG] Forge build tools version: 3.1.5
+2012-03-21 15:55:29,915 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2012-03-21 15:55:29,916 [  DEBUG] GET https://trigger.io/api/version_check/3/1/5/
+2012-03-21 15:55:30,452 [  DEBUG] checking API response for success or error
+2012-03-21 15:55:30,452 [   INFO] Update result: you already have the latest tools
+2012-03-21 15:55:31,289 [  DEBUG] 'platform_version' has changed in configuration
+2012-03-21 15:55:31,289 [  DEBUG] GET https://trigger.io/api/auth/loggedin
+2012-03-21 15:55:31,857 [  DEBUG] checking API response for success or error
+2012-03-21 15:55:31,857 [  DEBUG] already authenticated via cookie - continuing
+2012-03-21 15:55:31,872 [  DEBUG] ignoring non-target directory __init__.py
+2012-03-21 15:55:31,872 [  DEBUG] ignoring non-target directory config.json
+2012-03-21 15:55:31,872 [  DEBUG] ignoring non-target directory lib
+2012-03-21 15:55:31,873 [  DEBUG] GET https://trigger.io/api/app/c753e4b05f4e11e1bb8e12313d1adcbe/should_rebuild
+2012-03-21 15:55:43,665 [  DEBUG] checking API response for success or error
+2012-03-21 15:55:43,665 [  ERROR] Forge API call to app/c753e4b05f4e11e1bb8e12313d1adcbe/should_rebuild went wrong: Internal error: [Errno 2] No such file or directory: u'/opt/stable/webmynd-forge/platform-source/v3.1.5/changeset.txt'

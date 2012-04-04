@@ -1,0 +1,614 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="en" lang="en">
+  <head>
+    <title>Official En Masse Entertainment Forums</title>
+    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.7.1.min.js" ></script>
+    <script>
+    $(document).ready(function() {
+      $(".breadcrumbs span").prepend("<a href=\"/\" id=\"homelink\"></a>");
+    });
+      
+    </script>
+  </head>
+  <body id="app-forums">
+    <div id="blackout" style="display:none;"></div>
+    <div id="container-main">
+      <div id="flash-notices">
+      </div><!--#flash-notices-->
+      <div id="content-featured">
+      </div><!--#content-featured-->
+      <div id="content-container-1col">
+        <div id="content-primary">
+          <div class="forum-index content-block">
+            <div class="head"></div>
+            <div class="body">
+              <div class='breadcrumbs'>
+                <span><a href="/forums">Forums</a> </span>
+              </div><!--.breadcrumbs-->
+              <div class='user-details'>
+                <a href='/signin'>Login</a>
+              </div><!--.user-details-->
+              <div class='header'>
+                <h2>Forums</h2>
+                <div class='search'>
+                  <form action="/forums/search" id="forum_search_form" method="get" >
+                    <input type="text" value="SEARCH" name="q" onFocus="if (this.value == 'SEARCH') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'SEARCH';}" />
+                  </form>
+                </div><!--.search-->
+              </div><!--.header-->
+              <div class='content'>
+                <div id="forum-categories">
+                  <h3 class='cat-title'id='gatehouse'>Gatehouse</h3>
+                  <table cellspacing='0' class='cat'>
+                    <thead>
+                      <tr>
+                        <th class='thread'>forum</th>
+                        <th class='num'>threads</th>
+                        <th class='num'>posts</th>
+                        <th class='last-post'>last post</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/rules-guidelines" class="title">Rules &amp; Guidelines</a></p>
+                        <p class='desc'><span>Learn forum policies and related information.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>2</p>
+                      </td>
+                      <td class='num'>
+                        <p>3</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/rules-guidelines/topics/Official-TERA-Forums-Rules?reply=last#post-106426">Official TERA Forums Rules</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Scapes">Scapes</a> <span>02/28/2012, 12:24 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/introductions" class="title">Introductions</a></p>
+                        <p class='desc'><span>Newcomers to the community can present themselves here.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>503</p>
+                      </td>
+                      <td class='num'>
+                        <p>2465</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/introductions/topics/Hey--18791?reply=last#post-205802">Hey! ♥</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Sashimi">Sashimi</a> <span>04/04/2012, 02:15 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/newcomer-discussion" class="title">Newcomer Discussion</a></p>
+                        <p class='desc'><span>New to TERA? Ask your questions about the game here.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>525</p>
+                      </td>
+                      <td class='num'>
+                        <p>3203</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/newcomer-discussion/topics/Class-role-questions?reply=last#post-205659">Class role questions...</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Leiloni">Leiloni</a> <span>04/04/2012, 01:23 PM</span></p>
+                      </td>
+                    </tr>
+                  </table>
+                  <h3 class='cat-title'id='town-hall'>Town Hall</h3>
+                  <table cellspacing='0' class='cat'>
+                    <thead>
+                      <tr>
+                        <th class='thread'>forum</th>
+                        <th class='num'>threads</th>
+                        <th class='num'>posts</th>
+                        <th class='last-post'>last post</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/news-announcements" class="title">News &amp; Announcements</a></p>
+                        <p class='desc'><span>Read the latest TERA news and announcements.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>69</p>
+                      </td>
+                      <td class='num'>
+                        <p>4870</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/news-announcements/topics/Early-Character-Creation-Open-Beta-Test-19100?reply=last#post-205799">Early Character Creation &amp; Open Beta Test</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/SeraElf">SeraElf</a> <span>04/04/2012, 02:13 PM</span></p>
+                      </td>
+                    </tr>
+                  </table>
+                  <h3 class='cat-title'id='city-plaza'>City Plaza</h3>
+                  <table cellspacing='0' class='cat'>
+                    <thead>
+                      <tr>
+                        <th class='thread'>forum</th>
+                        <th class='num'>threads</th>
+                        <th class='num'>posts</th>
+                        <th class='last-post'>last post</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/general-discussion" class="title">General Discussion</a></p>
+                        <p class='desc'><span>Discuss topics related to TERA.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>5569</p>
+                      </td>
+                      <td class='num'>
+                        <p>83181</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/general-discussion/topics/EMEYou-Guys-Rule?reply=last#post-205803">EME...You Guys Rule!!!</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Leiloni">Leiloni</a> <span>04/04/2012, 02:15 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/art-media" class="title">Art &amp; Media</a></p>
+                        <p class='desc'><span>Publish and discuss official and fan-made TERA art.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>380</p>
+                      </td>
+                      <td class='num'>
+                        <p>4083</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/art-media/topics/Jadoras-Tera-Screenshot-Retouching?reply=last#post-205764">Jadora's Tera Screenshot Retouching</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Jadora">Jadora</a> <span>04/04/2012, 01:59 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/guild-hall" class="title">Guild Hall</a></p>
+                        <p class='desc'><span>Discuss guilds and recruitment in TERA.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>927</p>
+                      </td>
+                      <td class='num'>
+                        <p>17803</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/guild-hall/topics/Enclave?reply=last#post-205804">Enclave</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Dragonmuse">Dragonmuse</a> <span>04/04/2012, 02:16 PM</span></p>
+                      </td>
+                    </tr>
+                  </table>
+                  <h3 class='cat-title'id='barracks'>Barracks</h3>
+                  <table cellspacing='0' class='cat'>
+                    <thead>
+                      <tr>
+                        <th class='thread'>forum</th>
+                        <th class='num'>threads</th>
+                        <th class='num'>posts</th>
+                        <th class='last-post'>last post</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/races" class="title">Races</a></p>
+                        <p class='desc'><span>Discuss TERA's seven races.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>343</p>
+                      </td>
+                      <td class='num'>
+                        <p>11602</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/races/topics/Does-each-race-hold-their-weapons-differently?reply=last#post-205801">Does each race hold their weapons differently?</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Nived">Nived</a> <span>04/04/2012, 02:14 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/classes" class="title">Classes</a></p>
+                        <p class='desc'><span>Discuss TERA's eight classes.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>582</p>
+                      </td>
+                      <td class='num'>
+                        <p>10446</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/classes/topics/What-make-Lancers-useful-in-PvP-groups?reply=last#post-205744">What make Lancers useful in PvP groups?</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/compLexjEE">compLexjEE</a> <span>04/04/2012, 01:52 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/player-vs-player" class="title">Player vs. Player</a></p>
+                        <p class='desc'><span>Discuss player-versus-player gameplay in TERA.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>447</p>
+                      </td>
+                      <td class='num'>
+                        <p>11037</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/player-vs-player/topics/Cross-Server-PvP-PuG-vs-Premades-18610?reply=last#post-205763">Cross Server PvP &amp; PuG vs Premades</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/wabbitseason">wabbitseason</a> <span>04/04/2012, 01:59 PM</span></p>
+                      </td>
+                    </tr>
+                  </table>
+                  <h3 class='cat-title'id='tavern'>Tavern</h3>
+                  <table cellspacing='0' class='cat'>
+                    <thead>
+                      <tr>
+                        <th class='thread'>forum</th>
+                        <th class='num'>threads</th>
+                        <th class='num'>posts</th>
+                        <th class='last-post'>last post</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/roleplay" class="title">Roleplay</a></p>
+                        <p class='desc'><span>Discuss roleplay in TERA.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>104</p>
+                      </td>
+                      <td class='num'>
+                        <p>1902</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/roleplay/topics/What-Will-You-Role-Play-?reply=last#post-205713">What Will You Role Play? :)</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Benett">Benett</a> <span>04/04/2012, 01:40 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/off-topic" class="title">Off-Topic</a></p>
+                        <p class='desc'><span>Discuss topics unrelated to TERA.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>385</p>
+                      </td>
+                      <td class='num'>
+                        <p>5714</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/off-topic/topics/Who-are-we-playing-with?reply=last#post-205781">Who are we playing with?</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/MShepard24">MShepard24</a> <span>04/04/2012, 02:05 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/forum-games" class="title">Forum Games</a></p>
+                        <p class='desc'><span>Participate in popular forum-based games.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>27</p>
+                      </td>
+                      <td class='num'>
+                        <p>2319</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/forum-games/topics/Ban-Hammer?reply=last#post-205793">Ban Hammer</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Alytheia">Alytheia</a> <span>04/04/2012, 02:11 PM</span></p>
+                      </td>
+                    </tr>
+                  </table>
+                  <h3 class='cat-title'id='embassy'>Embassy</h3>
+                  <table cellspacing='0' class='cat'>
+                    <thead>
+                      <tr>
+                        <th class='thread'>forum</th>
+                        <th class='num'>threads</th>
+                        <th class='num'>posts</th>
+                        <th class='last-post'>last post</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/fansites" class="title">Fansites</a></p>
+                        <p class='desc'><span>Discuss TERA fansites.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>62</p>
+                      </td>
+                      <td class='num'>
+                        <p>494</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/fansites/topics/TERA-Oceanic-AustraliaNZetc?reply=last#post-204673">TERA Oceanic (Australia/NZ/etc.)</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Danikun">Danikun</a> <span>04/04/2012, 05:58 AM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/languages" class="title">Languages</a></p>
+                        <p class='desc'><span>Discuss TERA in your native language.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>46</p>
+                      </td>
+                      <td class='num'>
+                        <p>779</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/languages/topics/010000100110100101101110011000010111001001111001?reply=last#post-205112">010000100110100101101110011000010111001001111001</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Elfpop">Elfpop</a> <span>04/04/2012, 10:00 AM</span></p>
+                      </td>
+                    </tr>
+                  </table>
+                  <h3 class='cat-title'id='hospital'>Hospital</h3>
+                  <table cellspacing='0' class='cat'>
+                    <thead>
+                      <tr>
+                        <th class='thread'>forum</th>
+                        <th class='num'>threads</th>
+                        <th class='num'>posts</th>
+                        <th class='last-post'>last post</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/support" class="title">Support</a></p>
+                        <p class='desc'><span>Tell us where it hurts.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>942</p>
+                      </td>
+                      <td class='num'>
+                        <p>5182</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/support/topics/CBT3-Tera-launcher-crash?reply=last#post-205430">[CBT3] Tera launcher crash</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/SaltyPretzels">SaltyPretzels</a> <span>04/04/2012, 11:58 AM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/website-forums" class="title">Website &amp; Forums</a></p>
+                        <p class='desc'><span>Offer feedback about the official TERA website and forums.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>199</p>
+                      </td>
+                      <td class='num'>
+                        <p>1097</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/website-forums/topics/Alt-Text-of-CBT-4-Recap-News?reply=last#post-205544">Alt Text of CBT 4 Recap News</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/FunkinVile">FunkinVile</a> <span>04/04/2012, 12:41 PM</span></p>
+                      </td>
+                    </tr>
+                  </table>
+                  <h3 class='cat-title'id='closed-beta-test-4'>Closed Beta Test 4</h3>
+                  <table cellspacing='0' class='cat'>
+                    <thead>
+                      <tr>
+                        <th class='thread'>forum</th>
+                        <th class='num'>threads</th>
+                        <th class='num'>posts</th>
+                        <th class='last-post'>last post</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/cbt4-general-feedback" class="title">CBT4: General Feedback</a></p>
+                        <p class='desc'><span>Share your experiences and opinions on TERA's fourth closed beta test.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>175</p>
+                      </td>
+                      <td class='num'>
+                        <p>2029</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/cbt4-general-feedback/topics/Berserker-Keyboard-Control-charging-skills?reply=last#post-205791">Berserker + Keyboard Control (charging skills)</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Invalid">Invalid</a> <span>04/04/2012, 02:10 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/cbt4-classes-skills-glyphs" class="title">CBT4: Classes, Skills, &amp; Glyphs</a></p>
+                        <p class='desc'><span>Discuss your class, skill, and glyph feedback here.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>33</p>
+                      </td>
+                      <td class='num'>
+                        <p>431</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/cbt4-classes-skills-glyphs/topics/Chain-skill-customization?reply=last#post-205319">Chain skill customization</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Naoto">Naoto</a> <span>04/04/2012, 11:12 AM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/cbt4-equipment-items" class="title">CBT4: Equipment &amp; Items</a></p>
+                        <p class='desc'><span>Discuss your equipment and item feedback here.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>16</p>
+                      </td>
+                      <td class='num'>
+                        <p>233</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/cbt4-equipment-items/topics/Enchanting-7-Weapon-Glow?reply=last#post-205451">Enchanting 7+ Weapon Glow</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/alexisneos">alexisneos</a> <span>04/04/2012, 12:05 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/cbt4-story-quests" class="title">CBT4: Story &amp; Quests</a></p>
+                        <p class='desc'><span>Discuss your story and quest feedback here.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>28</p>
+                      </td>
+                      <td class='num'>
+                        <p>120</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/cbt4-story-quests/topics/Voice-Overs-in-Tera?reply=last#post-204310">Voice Over's in Tera</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/ChibiNeko">ChibiNeko</a> <span>04/03/2012, 11:27 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/cbt4-combat-and-gameplay" class="title">CBT4: Combat and Gameplay</a></p>
+                        <p class='desc'><span>Discuss your combat and gameplay feedback here.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>28</p>
+                      </td>
+                      <td class='num'>
+                        <p>268</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/cbt4-combat-and-gameplay/topics/Combat-Vs-Level-PVP?reply=last#post-205654">Combat Vs. Level PVP</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/JavelinMyrmidon">JavelinMyrmidon</a> <span>04/04/2012, 01:21 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/cbt4-crafting-economy" class="title">CBT4: Crafting &amp; Economy</a></p>
+                        <p class='desc'><span>Discuss your crafting and economy feedback here.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>22</p>
+                      </td>
+                      <td class='num'>
+                        <p>248</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/cbt4-crafting-economy/topics/Idea-to-keep-player-shops?reply=last#post-205680">Idea to keep player shops.</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Cinadien">Cinadien</a> <span>04/04/2012, 01:28 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/cbt4-player-vs-player" class="title">CBT4: Player vs. Player</a></p>
+                        <p class='desc'><span>Discuss your PvP and group PvP feedback here.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>37</p>
+                      </td>
+                      <td class='num'>
+                        <p>553</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/cbt4-player-vs-player/topics/Could-finally-balance-races?reply=last#post-205662">Could finally balance races?</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/deniedbyjt">deniedbyjt</a> <span>04/04/2012, 01:24 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/cbt4-guilds" class="title">CBT4: Guilds</a></p>
+                        <p class='desc'><span>Discuss your guild feedback here.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>13</p>
+                      </td>
+                      <td class='num'>
+                        <p>96</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/cbt4-guilds/topics/Compilation-of-Requested-Guild-Changes?reply=last#post-205585">Compilation of Requested Guild Changes</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/illincrux">illincrux</a> <span>04/04/2012, 12:55 PM</span></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class='thread'>
+                        <p><a href="/forums/cbt4-bugs-suggestions" class="title">CBT4: Bugs &amp; Suggestions</a></p>
+                        <p class='desc'><span>Discuss bugs and suggestions here.</span></p>
+                      </td>
+                      <td class='num'>
+                        <p>244</p>
+                      </td>
+                      <td class='num'>
+                        <p>899</p>
+                      </td>
+                      <td class='last-post'>
+                        <p class='sub-title'>
+                          <a href="/forums/cbt4-bugs-suggestions/topics/BIG-Bug-every1-gets-pissed-about?reply=last#post-205759">BIG Bug every1 gets pissed about!</a>
+                        </p>
+                        <p class='thread-author-date'>by <a href="/profiles/Caedhwynn">Caedhwynn</a> <span>04/04/2012, 01:58 PM</span></p>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <div class='forum-icon'>
+                </div><!--.forum-icon-->
+                <div class='clear'></div>
+              </div><!--.content-->
+            </div><!--.body-->
+            <div class="foot"></div>
+          </div><!--.content-block-->
+        </div><!--#primary-->
+      </div><!--#content-container-->
+      <div id='fade'></div><!--#fade-->
+      <div id='mod-popup' style="display:none;"></div>
+      <footer id="footer-main">
+      </footer>
+    </div><!--#container-main-->
+  </body>
+</html>
