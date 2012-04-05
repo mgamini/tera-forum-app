@@ -8,7 +8,7 @@ $headertext-color: #fff;
 $background-color: #000;
 
 //hidden elements on the page
-.head, .user-details, .header, #top-pagination, table.full thead, .large-num, .last-post, p.replies-icon {
+.head, .user-details, .header, #top-pagination, table.full thead, .large-num, .last-post, p.replies-icon, #legend {
   display: none;
 }
 
@@ -70,7 +70,18 @@ table.full {
       position: absolute;
       right: 0px;
       bottom: 0px;
+      padding: 15px 15px 15px 25px;
+      background: url('../img/comment-icon.png') left center no-repeat;
 
     }
+  }
+}
+.pagination {
+  text-align: center;
+  padding: 15px;
+
+  span, a {
+    padding: 10px;
+    display: inline-block;
   }
 }

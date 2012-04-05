@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 11, ../sass/style.scss */
-.head, .user-details, .header, #top-pagination, table.full thead, .large-num, .last-post, p.replies-icon {
+.head, .user-details, .header, #top-pagination, table.full thead, .large-num, .last-post, p.replies-icon, #legend {
   display: none;
 }
 
@@ -131,4 +131,17 @@ table.full td.num {
   position: absolute;
   right: 0px;
   bottom: 0px;
+  padding: 15px 15px 15px 25px;
+  background: url("../img/comment-icon.png") left center no-repeat;
+}
+
+/* line 79, ../sass/style.scss */
+.pagination {
+  text-align: center;
+  padding: 15px;
+}
+/* line 83, ../sass/style.scss */
+.pagination span, .pagination a {
+  padding: 10px;
+  display: inline-block;
 }

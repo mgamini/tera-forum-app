@@ -1227,3 +1227,278 @@ The newest tools can be obtained from https://trigger.io/forge/upgrade/
 2012-03-21 15:55:31,873 [  DEBUG] GET https://trigger.io/api/app/c753e4b05f4e11e1bb8e12313d1adcbe/should_rebuild
 2012-03-21 15:55:43,665 [  DEBUG] checking API response for success or error
 2012-03-21 15:55:43,665 [  ERROR] Forge API call to app/c753e4b05f4e11e1bb8e12313d1adcbe/should_rebuild went wrong: Internal error: [Errno 2] No such file or directory: u'/opt/stable/webmynd-forge/platform-source/v3.1.5/changeset.txt'
+2012-04-05 12:48:52,981 [   INFO] Forge tools running at version 3.2.1
+2012-04-05 12:48:52,982 [  DEBUG] Forge build tools version: 3.2.1
+2012-04-05 12:48:52,982 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2012-04-05 12:48:52,983 [  DEBUG] GET https://trigger.io/api/version_check/3/2/1/
+2012-04-05 12:48:53,522 [  DEBUG] checking API response for success or error
+2012-04-05 12:48:53,522 [   INFO] Update result: you already have the latest tools
+2012-04-05 12:48:55,294 [  DEBUG] configuration is identical to last run
+2012-04-05 12:48:55,294 [  DEBUG] GET https://trigger.io/api/auth/loggedin
+2012-04-05 12:48:55,816 [  DEBUG] checking API response for success or error
+2012-04-05 12:49:04,638 [   INFO] authenticating as "kadjar@gmail.com"
+2012-04-05 12:49:04,639 [  DEBUG] GET https://trigger.io/api/auth/hello
+2012-04-05 12:49:05,096 [  DEBUG] checking API response for success or error
+2012-04-05 12:49:05,096 [  DEBUG] POST https://trigger.io/api/auth/verify
+2012-04-05 12:49:05,692 [  DEBUG] checking API response for success or error
+2012-04-05 12:49:05,693 [   INFO] authentication successful
+2012-04-05 12:49:05,703 [  DEBUG] ignoring non-target directory __init__.py
+2012-04-05 12:49:05,703 [  DEBUG] ignoring non-target directory config.json
+2012-04-05 12:49:05,703 [  DEBUG] ignoring non-target directory lib
+2012-04-05 12:49:05,703 [  DEBUG] GET https://trigger.io/api/app/c753e4b05f4e11e1bb8e12313d1adcbe/should_rebuild
+2012-04-05 12:49:06,196 [  DEBUG] checking API response for success or error
+2012-04-05 12:49:06,196 [  DEBUG] Server requires rebuild: platform has changed for kadjar@gmail.com: a434e77c4487 vs. 025dc67d9178
+2012-04-05 12:49:06,197 [   INFO] Your Forge platform has been updated: we need to rebuild your app
+2012-04-05 12:49:06,197 [  DEBUG] removing previous templates
+2012-04-05 12:49:06,277 [   INFO] Starting new build
+2012-04-05 12:49:06,277 [  DEBUG] already authenticated - continuing
+2012-04-05 12:49:06,278 [  DEBUG] POST https://trigger.io/api/app/c753e4b05f4e11e1bb8e12313d1adcbe/template
+2012-04-05 12:49:06,966 [  DEBUG] checking API response for success or error
+2012-04-05 12:49:06,966 [   INFO] Build 3458 started...
+2012-04-05 12:49:06,967 [   INFO] This could take a while, but will only happen again if you modify config.json
+2012-04-05 12:49:06,967 [  DEBUG] GET https://trigger.io/api/build/3458/detail/
+2012-04-05 12:49:07,610 [  DEBUG] checking API response for success or error
+2012-04-05 12:49:07,610 [  DEBUG] build 3458 is pending...
+2012-04-05 12:49:17,611 [  DEBUG] GET https://trigger.io/api/build/3458/detail/
+2012-04-05 12:49:18,205 [  DEBUG] checking API response for success or error
+2012-04-05 12:49:18,206 [  DEBUG] build 3458 is working...
+2012-04-05 12:49:28,211 [  DEBUG] GET https://trigger.io/api/build/3458/detail/
+2012-04-05 12:49:30,497 [  DEBUG] checking API response for success or error
+2012-04-05 12:49:30,498 [  DEBUG] build 3458 is working...
+2012-04-05 12:49:40,504 [  DEBUG] GET https://trigger.io/api/build/3458/detail/
+2012-04-05 12:49:42,358 [  DEBUG] checking API response for success or error
+2012-04-05 12:49:42,359 [   INFO] build completed successfully
+2012-04-05 12:49:42,359 [  DEBUG] 
+
+=================
+
+
+
+=================
+
+
+
+=================
+
+
+2012-04-05 12:49:42,360 [  DEBUG] removing .template
+2012-04-05 12:49:42,360 [   INFO] fetching new Forge templates
+2012-04-05 12:49:42,360 [   INFO] fetching unpackaged artefacts for 3458 into ".template"
+2012-04-05 12:49:42,361 [  DEBUG] GET https://trigger.io/api/auth/loggedin
+2012-04-05 12:49:42,919 [  DEBUG] checking API response for success or error
+2012-04-05 12:49:42,920 [  DEBUG] already authenticated via cookie - continuing
+2012-04-05 12:49:42,920 [   INFO] creating output directory ".template"
+2012-04-05 12:49:42,920 [  DEBUG] writing https://port_customer_code.s3.amazonaws.com:443/ch-2012-04-05-20-49-26/TERA%20Forum%20Viewer-3458-chrome.zip?Signature=rIIzlrKqPV%2BduodI%2Fz5gOfYpRWw%3D&Expires=1333658990&AWSAccessKeyId=AKIAJYWQNT53NYOWGRIQ to /Users/garrett.amini/Documents/Design/Dev/tera-forum-app/.template/TERA%20Forum%20Viewer-3458-chrome.zip
+2012-04-05 12:49:42,920 [  DEBUG] GET https://port_customer_code.s3.amazonaws.com:443/ch-2012-04-05-20-49-26/TERA%20Forum%20Viewer-3458-chrome.zip?Signature=rIIzlrKqPV%2BduodI%2Fz5gOfYpRWw%3D&Expires=1333658990&AWSAccessKeyId=AKIAJYWQNT53NYOWGRIQ
+2012-04-05 12:49:43,667 [  DEBUG] Fetching (242456.0) into TERA%20Forum%20Viewer-3458-chrome.zip
+2012-04-05 12:49:44,052 [  DEBUG] removed "chrome" directory
+2012-04-05 12:49:44,100 [  DEBUG] unzip is available, using it
+2012-04-05 12:49:44,125 [  DEBUG] unzip output
+2012-04-05 12:49:44,125 [  DEBUG] Archive:  TERA%20Forum%20Viewer-3458-chrome.zip
+ extracting: chrome/forge.html       
+ extracting: chrome/manifest.json    
+   creating: chrome/forge/
+ extracting: chrome/forge/disable-frames.js  
+ extracting: chrome/forge/form.css   
+ extracting: chrome/forge/reset.css  
+ extracting: chrome/forge/all.js     
+ extracting: chrome/forge/all-priv.js  
+
+2012-04-05 12:49:44,125 [  DEBUG] Extracted unpackaged build for chrome
+2012-04-05 12:49:44,125 [  DEBUG] removed downloaded file "TERA%20Forum%20Viewer-3458-chrome.zip"
+2012-04-05 12:49:44,126 [  DEBUG] writing https://port_customer_code.s3.amazonaws.com:443/we-2012-04-05-20-49-42/TERA%20Forum%20Viewer-3458-web.zip?Signature=nzhUNF8ZU%2BWaLc42nJnzXvxlHAw%3D&Expires=1333658990&AWSAccessKeyId=AKIAJYWQNT53NYOWGRIQ to /Users/garrett.amini/Documents/Design/Dev/tera-forum-app/.template/TERA%20Forum%20Viewer-3458-web.zip
+2012-04-05 12:49:44,126 [  DEBUG] GET https://port_customer_code.s3.amazonaws.com:443/we-2012-04-05-20-49-42/TERA%20Forum%20Viewer-3458-web.zip?Signature=nzhUNF8ZU%2BWaLc42nJnzXvxlHAw%3D&Expires=1333658990&AWSAccessKeyId=AKIAJYWQNT53NYOWGRIQ
+2012-04-05 12:49:44,528 [  DEBUG] Fetching (132506.0) into TERA%20Forum%20Viewer-3458-web.zip
+2012-04-05 12:49:44,888 [  DEBUG] removed "web" directory
+2012-04-05 12:49:44,894 [  DEBUG] unzip is available, using it
+2012-04-05 12:49:44,921 [  DEBUG] unzip output
+2012-04-05 12:49:44,921 [  DEBUG] Archive:  TERA%20Forum%20Viewer-3458-web.zip
+ extracting: web/.gitignore          
+ extracting: web/package.json        
+ extracting: web/web.js              
+ extracting: web/cookie.js           
+ extracting: web/Procfile            
+   creating: web/forge/
+ extracting: web/forge/disable-frames.js  
+ extracting: web/forge/form.css      
+ extracting: web/forge/reset.css     
+ extracting: web/forge/all.js        
+
+2012-04-05 12:49:44,922 [  DEBUG] Extracted unpackaged build for web
+2012-04-05 12:49:44,922 [  DEBUG] removed downloaded file "TERA%20Forum%20Viewer-3458-web.zip"
+2012-04-05 12:49:44,922 [  DEBUG] writing https://port_customer_code.s3.amazonaws.com:443/an-2012-04-05-20-49-40/TERA%20Forum%20Viewer-3458-android.zip?Signature=JhnRbk8fwOma9FdfBaoZOmMzp8s%3D&Expires=1333658990&AWSAccessKeyId=AKIAJYWQNT53NYOWGRIQ to /Users/garrett.amini/Documents/Design/Dev/tera-forum-app/.template/TERA%20Forum%20Viewer-3458-android.zip
+2012-04-05 12:49:44,923 [  DEBUG] GET https://port_customer_code.s3.amazonaws.com:443/an-2012-04-05-20-49-40/TERA%20Forum%20Viewer-3458-android.zip?Signature=JhnRbk8fwOma9FdfBaoZOmMzp8s%3D&Expires=1333658990&AWSAccessKeyId=AKIAJYWQNT53NYOWGRIQ
+2012-04-05 12:49:45,262 [  DEBUG] Fetching (327004.0) into TERA%20Forum%20Viewer-3458-android.zip
+2012-04-05 12:49:45,737 [  DEBUG] removed "android" directory
+2012-04-05 12:49:45,766 [  DEBUG] unzip is available, using it
+2012-04-05 12:49:45,816 [  DEBUG] unzip output
+2012-04-05 12:49:45,817 [  DEBUG] Archive:  TERA%20Forum%20Viewer-3458-android.zip
+ extracting: android/AndroidManifest.xml  
+   creating: android/res/
+   creating: android/assets/
+   creating: android/output/
+   creating: android/res/values-v11/
+   creating: android/res/drawable-mdpi/
+   creating: android/res/values/
+   creating: android/res/drawable-xhdpi/
+   creating: android/res/drawable/
+   creating: android/res/layout/
+   creating: android/res/drawable-ldpi/
+   creating: android/res/raw/
+   creating: android/res/values-v13/
+   creating: android/res/drawable-hdpi/
+ extracting: android/res/values-v11/styles.xml  
+ extracting: android/res/drawable-mdpi/actionbar_shadow.9.png  
+ extracting: android/res/drawable-mdpi/icon.png  
+ extracting: android/res/values/colors.xml  
+ extracting: android/res/values/styles.xml  
+ extracting: android/res/values/strings.xml  
+ extracting: android/res/values/dimens.xml  
+ extracting: android/res/values/ids.xml  
+ extracting: android/res/values/attrs.xml  
+ extracting: android/res/drawable-xhdpi/actionbar_shadow.9.png  
+ extracting: android/res/drawable/splash.png  
+ extracting: android/res/drawable/actionbar_compat_item.xml  
+ extracting: android/res/drawable/actionbar_compat_item_pressed.xml  
+ extracting: android/res/drawable/actionbar_compat_item_focused.xml  
+ extracting: android/res/layout/external_webview.xml  
+ extracting: android/res/layout/actionbar_compat.xml  
+ extracting: android/res/layout/splashscreen.xml  
+ extracting: android/res/drawable-ldpi/icon.png  
+ extracting: android/res/raw/keystore.bks  
+ extracting: android/res/values-v13/styles.xml  
+ extracting: android/res/drawable-hdpi/actionbar_shadow.9.png  
+ extracting: android/res/drawable-hdpi/icon.png  
+   creating: android/assets/forge/
+ extracting: android/assets/forge/disable-frames.js  
+ extracting: android/assets/forge/form.css  
+ extracting: android/assets/forge/reset.css  
+ extracting: android/assets/forge/all.js  
+ extracting: android/output/classes.dex  
+
+2012-04-05 12:49:45,817 [  DEBUG] Extracted unpackaged build for android
+2012-04-05 12:49:45,817 [  DEBUG] removed downloaded file "TERA%20Forum%20Viewer-3458-android.zip"
+2012-04-05 12:49:45,817 [  DEBUG] writing https://port_customer_code.s3.amazonaws.com:443/io-2012-04-05-20-49-36/TERA%20Forum%20Viewer-3458-ios.zip?Signature=yGv%2BUpDI%2BaK3DPBROVTjvy6ORX4%3D&Expires=1333658990&AWSAccessKeyId=AKIAJYWQNT53NYOWGRIQ to /Users/garrett.amini/Documents/Design/Dev/tera-forum-app/.template/TERA%20Forum%20Viewer-3458-ios.zip
+2012-04-05 12:49:45,818 [  DEBUG] GET https://port_customer_code.s3.amazonaws.com:443/io-2012-04-05-20-49-36/TERA%20Forum%20Viewer-3458-ios.zip?Signature=yGv%2BUpDI%2BaK3DPBROVTjvy6ORX4%3D&Expires=1333658990&AWSAccessKeyId=AKIAJYWQNT53NYOWGRIQ
+2012-04-05 12:49:46,250 [  DEBUG] Fetching (2755439.0) into TERA%20Forum%20Viewer-3458-ios.zip
+2012-04-05 12:49:48,977 [  DEBUG] removed "ios" directory
+2012-04-05 12:49:48,982 [  DEBUG] unzip is available, using it
+2012-04-05 12:49:49,018 [  DEBUG] unzip output
+2012-04-05 12:49:49,020 [  DEBUG] Archive:  TERA%20Forum%20Viewer-3458-ios.zip
+   creating: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/
+   creating: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/Default-Landscape~ipad.png  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/Default@2x~iphone.png  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/Default~ipad.png  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/Default~iphone.png  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/embedded.mobileprovision  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/Forge  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/Info.plist  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/ipad.png  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/normal.png  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/PkgInfo  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/ResourceRules.plist  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/retina.png  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/tabs_modalWebViewController.nib  
+   creating: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/_CodeSignature/
+   creating: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/assets/
+   creating: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/en.lproj/
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/_CodeSignature/CodeResources  
+   creating: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/assets/forge/
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/assets/forge/all.js  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/assets/forge/disable-frames.js  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/assets/forge/form.css  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/assets/forge/reset.css  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/en.lproj/InfoPlist.strings  
+ extracting: ios/device-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/en.lproj/templateappViewController.nib  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/Default-Landscape~ipad.png  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/Default@2x~iphone.png  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/Default~ipad.png  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/Default~iphone.png  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/Forge  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/Info.plist  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/ipad.png  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/normal.png  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/PkgInfo  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/retina.png  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/tabs_modalWebViewController.nib  
+   creating: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/assets/
+   creating: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/en.lproj/
+   creating: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/assets/forge/
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/assets/forge/all.js  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/assets/forge/disable-frames.js  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/assets/forge/form.css  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/assets/forge/reset.css  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/en.lproj/InfoPlist.strings  
+ extracting: ios/simulator-io.trigger.forgec753e4b05f4e11e1bb8e12313d1adcbe.app/en.lproj/templateappViewController.nib  
+
+2012-04-05 12:49:49,020 [  DEBUG] Extracted unpackaged build for ios
+2012-04-05 12:49:49,021 [  DEBUG] removed downloaded file "TERA%20Forum%20Viewer-3458-ios.zip"
+2012-04-05 12:49:49,021 [   INFO] fetched build into "/Users/garrett.amini/Documents/Design/Dev/tera-forum-app/.template/chrome", "/Users/garrett.amini/Documents/Design/Dev/tera-forum-app/.template/web", "/Users/garrett.amini/Documents/Design/Dev/tera-forum-app/.template/android", "/Users/garrett.amini/Documents/Design/Dev/tera-forum-app/.template/ios"
+2012-04-05 12:49:49,022 [  DEBUG] already authenticated - continuing
+2012-04-05 12:49:49,022 [   INFO] fetching generation instructions for v1.2 into .template
+2012-04-05 12:49:49,023 [  DEBUG] GET https://trigger.io/api/platform/v1.2/generate_instructions/
+2012-04-05 12:49:55,099 [  DEBUG] unzip is available, using it
+2012-04-05 12:49:55,161 [  DEBUG] unzip output
+2012-04-05 12:49:55,161 [  DEBUG] Archive:  instructions.zip
+  inflating: generate_dynamic/__init__.py  
+  inflating: generate_dynamic/build.py  
+  inflating: generate_dynamic/android_tasks.py  
+  inflating: generate_dynamic/check_tasks.py  
+  inflating: generate_dynamic/customer_goals.py  
+  inflating: generate_dynamic/customer_phases.py  
+  inflating: generate_dynamic/customer_tasks.py  
+  inflating: generate_dynamic/firefox_tasks.py  
+  inflating: generate_dynamic/ie_tasks.py  
+  inflating: generate_dynamic/internal_goals.py  
+  inflating: generate_dynamic/internal_tasks.py  
+  inflating: generate_dynamic/ios_tasks.py  
+  inflating: generate_dynamic/lib.py  
+  inflating: generate_dynamic/migrate_tasks.py  
+  inflating: generate_dynamic/predicates.py  
+  inflating: generate_dynamic/utils.py  
+  inflating: generate_dynamic/web_tasks.py  
+  inflating: generate_dynamic/wp_tasks.py  
+  inflating: lib/apk-signer.jar      
+  inflating: lib/debug.keystore      
+  inflating: lib/template.entitlements  
+  inflating: lib/dev.entitlements    
+  inflating: lib/run-firefox.zip     
+  inflating: lib/ios-sim-xc4.2       
+  inflating: lib/ios-sim-xc4.3       
+  inflating: lib/fruitstrap          
+  inflating: lib/android-platform.apk  
+  inflating: lib/validictory/__init__.py  
+  inflating: lib/validictory/validator.py  
+  inflating: lib/local_config_schema.json  
+  inflating: lib/schema.json         
+  inflating: lib/changeset.txt       
+  inflating: lib/invalidating_config.json  
+  inflating: __init__.py             
+
+2012-04-05 12:49:55,691 [  DEBUG] ignoring non-target directory __init__.py
+2012-04-05 12:49:55,692 [  DEBUG] ignoring non-target directory config.json
+2012-04-05 12:49:55,692 [  DEBUG] ignoring non-target directory lib
+2012-04-05 12:49:55,697 [   INFO] enabled platforms: ['android', 'chrome', 'ios', 'web']
+2012-04-05 12:49:55,697 [  ERROR] Failed to parse command line arguments at android
+2012-04-05 12:50:07,137 [   INFO] Forge tools running at version 3.2.1
+2012-04-05 12:50:07,138 [  DEBUG] Forge build tools version: 3.2.1
+2012-04-05 12:50:07,138 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2012-04-05 12:50:07,139 [  DEBUG] GET https://trigger.io/api/version_check/3/2/1/
+2012-04-05 12:50:07,609 [  DEBUG] checking API response for success or error
+2012-04-05 12:50:07,609 [   INFO] Update result: you already have the latest tools
+2012-04-05 12:50:08,187 [  DEBUG] configuration is identical to last run
+2012-04-05 12:50:08,187 [  DEBUG] GET https://trigger.io/api/auth/loggedin
+2012-04-05 12:50:08,681 [  DEBUG] checking API response for success or error
+2012-04-05 12:50:08,681 [  DEBUG] already authenticated via cookie - continuing
+2012-04-05 12:50:08,681 [  DEBUG] ignoring non-target directory __init__.py
+2012-04-05 12:50:08,682 [  DEBUG] ignoring non-target directory config.json
+2012-04-05 12:50:08,682 [  DEBUG] ignoring non-target directory lib
+2012-04-05 12:50:08,682 [  DEBUG] GET https://trigger.io/api/app/c753e4b05f4e11e1bb8e12313d1adcbe/should_rebuild
+2012-04-05 12:50:09,181 [  DEBUG] checking API response for success or error
+2012-04-05 12:50:09,181 [   INFO] configuration is unchanged: using existing templates
+2012-04-05 12:50:09,589 [  DEBUG] ignoring non-target directory __init__.py
+2012-04-05 12:50:09,589 [  DEBUG] ignoring non-target directory config.json
+2012-04-05 12:50:09,589 [  DEBUG] ignoring non-target directory lib
+2012-04-05 12:50:09,589 [   INFO] enabled platforms: ['android', 'chrome', 'ios', 'web']
+2012-04-05 12:50:09,590 [  ERROR] Failed to parse command line arguments at android
