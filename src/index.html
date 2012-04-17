@@ -12,13 +12,23 @@
 		<script type="text/javascript">
 		window.forge.debug = true;
 			$(document).ready(function() {
-				$('div#ajax-content').load('http://tera-forums.enmasse.com #content-primary');
+				    forge.request.ajax({
+			       url: 'http://tera-forums.enmasse.com/forums',
+			       data: {},
+			       success: function (data) {
+			          $("#ajax-content").html($(data).find("#content-primary"));
+			       },
+			         error: function(status, errorThrown) {
+						    alert('Failed to update: '+errorThrown);
+						  },
+			       dataType: 'html'
+			    });
 			});
 		</script>
 
 	</head>
 	<body>
-		<nav id="persistent-nav">This space reserved for persistent nav</nav>
+		<nav id="persistent-nav"><a href="#">Back</a><h1 id="page-title">TERA Forums</h1></nav>
 		<div id="ajax-content">
 			You shouldn't be seeing this!
 		</div>
